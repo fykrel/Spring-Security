@@ -1,0 +1,7 @@
+spring:
+  redis:
+    sentinel:
+      nodes: localhost:26379
+      master: mymaster
+    password: 123456
+    database: 0
